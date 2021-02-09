@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Home Page Learning CSS</title>
+  <title>Liste personalités CSS</title>
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -15,96 +15,126 @@
         <ul>
           <li><a href="index.html">Accueil</a></li>
           <li><a href="evolutions-css.html">Evolutions et propriétés CSS</a></li>
-          <li><a href="liste-personnalites.html">Personnalités CSS</a></li>
+          <li><a class="active" href="liste-personnalites.html">Personnalités CSS</a></li>
+          <li><a href="profil-personnalite.html">Val Head</a></li>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
         </ul>
       </nav>
-    </div
+    </div>
 </header>
 
 <main>
-  <section>
     <h1>Personnalités qui ont joué un rôle dans l'évolution du CSS</h1>
-    <section>
-      <div class="jen-simons">
-        <h2>Jen Simmons</h2>
-        <p>Jen Simmons est une graphiste, développeur web, éducatrice et conférencière reconnue pour son expertise des standards web, en particulier HTML et CSS . Elle est membre du groupe de travail CSS créé par le World Wide Web Consortium et a joué un rôle de premier plan dans le déploiement de la disposition de grille CSS . Simmons est actuellement un concepteur et un défenseur des développeurs chez Mozilla , où elle a conçu le Grid Inspector du navigateur Firefox . Simmons dirige la chaîne YouTube "Layout Land" et a inventé le terme «conception intrinsèque» pour faire référence à sa philosophie des mises en page Web qui mélangent une mise en page fixe, de taille de contenu et fluide. Elle est une conférencière fréquente lors d'événements tels qu'un événement à part , au sud par le sud - ouest , Fluent et SmashingConf . Simmons a obtenu un BA en sociologie du Gordon College en 1991. [8] En 2007, elle est diplômée de l'Université Temple avec une maîtrise en arts cinématographiques et médiatiques. En plus de travailler sur des sites Web depuis 1998, Simmons est un concepteur de pièces imprimées et de performances en direct, y compris des travaux de projection et de conception d'éclairage. Simmons est sur Twitter depuis 2007 et compte plus de 50 000 abonnés. [10] En 2007, elle a inventé le terme « échouer la baleine » pour l'illustration de message d'erreur du site Web qui a montré pendant les pannes jusqu'en 2013</p>
+    <div class="container-personnalite">
+      <div class="container-item1">
+      <img src="images/val-head.jpg" alt="Val Head" class="image-personnalite">
       </div>
-      <button class="button" type="button">En savoir plus</button>
-    </section>
+      <div class="container-item2">
+        <h2>Val Head</h2>
+        <p> Val Head, conférencière, auteure et spécialiste du design chez Adobe, spécialisée dans l’animation UX et UI. Son truc à elle c’est l’animation Web. Elle s’intéresse également aux normes web tout en apprenant à utiliser les animations Adobe Flash et ActionScript.Head est la fondatrice de On the Fridge qui produit la conférence Web Design Day en Pennsylvanie, ainsi que plusieurs ateliers de conception Web dans le pays. Val Head était directrice de la conception chez Northmaple Studio et directrice de la conception interactive à Agency 1903...</p>
+      <button class="button" type="button" onclick="window.location.href = 'profil-personnalite.html'">En savoir plus</button>
+      </div>
+    </div>
 
-    <section>
-      <div class="rachel-andrew">
+    <div class="container-personnalite">
+      <div class="container-item1">
+      <img src="images/jen-simmons.jpg" alt="Jen simmons" class="image-personnalite">
+      </div>
+      <div class="container-item2">
+        <h2>Jen Simmons</h2>
+        <p>Jen Simmons est une graphiste, développeur web, éducatrice et conférencière reconnue pour son expertise des standards web, en particulier HTML et CSS . Elle est membre du groupe de travail CSS créé par le World Wide Web Consortium et a joué un rôle de premier plan dans le déploiement de la disposition de grille CSS . Simmons est actuellement un concepteur et un défenseur des développeurs chez Mozilla , où elle a conçu le Grid Inspector du navigateur Firefox .</p>
+          <button class="button" type="button">En savoir plus</button>
+      </div>
+    </div>
+
+    <div class="container-personnalite">
+      <div class="container-item1">
+      <img src="images/rachel-andrew.jpg" alt="Rachel Andrew" class="image-personnalite">
+      </div>
+      <div class="container-item2">
         <h2>Rachel Andrew</h2>
         <p>Rachel Andrew a commencé à travailler sur le Web en 1996. Elle est directrice générale et fondatrice de la société de développement Web edgeofmyseat.com, dirigée par les experts Rachel Andrew et Drew McLellan. Fondée en 2001, edgeofmyseat.com est un éditeur de logiciels indépendant. Elle est notamment la rédactrice en chef de Smashing Magazine, et contributrice régulière de A List Apart et An Event Apart. Actuellement, elle vit à Bristol au Royaume-Uni, et est rédactrice techniqu chez Mozilla depuis 2017.</p>
+          <button class="button" type="button">En savoir plus</button>
       </div>
-      <button class="button" type="button">En savoir plus</button>
-    </section>
+    </div>
 
-    <section>
-      <div class="lea-verrou">
+    <div class="container-personnalite">
+      <div class="container-item1">
+      <img src="images/lea-verrou.jpg" alt="Léa Verrou" class="image-personnalite">
+      </div>
+      <div class="container-item2">
         <h2>Léa Verrou</h2>
         <p>Léa Verrou, née en 1986, est une développeuse front-end, conférencière et auteure originaire de Grèce. Elle est actuellement assistante de recherche au MIT CSAIL et cherche des moyens de faciliter la programmation Web. Verrou travaille en collaboration avec David Karger du groupe Haystack. ( = projet du Massachusetts Institute of Technology pour rechercher et développer plusieurs applications autour de la gestion des informations personnelles et du Web sémantique). Pendant ses premières années, elle était en freelance pour des projets de graphisme et de développement Web et a co-fondé en 2008 une start-up grecque appelée Fresset Ltd et l’a quittée en 2011. La société a par la suite été vendue en 2013, elle est aujourd’hui toujours active sous une nouvelle direction. Elle est également designer produit chez FutureLearn depuis 2009.</p>
-      </div>
       <button class="button" type="button">En savoir plus</button>
-    </section>
-
-    <section>
-      <div class="val-head">
-        <h2>Val Head</h2>
-        <p> Val Head, conférencière, auteure et spécialiste du design chez Adobe, spécialisée dans l’animation UX et UI. Son truc à elle c’est l’animation Web. Elle s’intéresse également aux normes web tout en apprenant à utiliser les animations Adobe Flash et ActionScript.Head est la fondatrice de On the Fridge qui produit la conférence Web Design Day en Pennsylvanie, ainsi que plusieurs ateliers de conception Web dans le pays. Val Head était directrice de la conception chez Northmaple Studio et directrice de la conception interactive à Agency 1903. Head est une des leadeuses de l’organisation à but non lucratif “Girl Develop It”. Elle est également la rédactrice en chef de The UI Animation Newsletter, où on retrouve les dernières normes en matière d’animation web, de motion design et de ressources UX. Il s’agit d’articles et de vidéos, de collections de tutoriels, ainsi que de conseils sur la manière de tirer le meilleur parti de l’animation sur le Web. Elle est aussi co-animatrice du podcast Motion and Meaning destiné aux designers.Actuellement, elle travaille en tant que Designer chez Adobe, et est en même temps à son compte depuis 2014.</p>
       </div>
-      <button class="button" type="button">En savoir plus</button>
-    </section>
+    </div>
 
-    <section>
-      <div class="sara-soueidan">
+    <div class="container-personnalite">
+      <div class="container-item1">
+      <img src="images/sara-soueidan.jpeg" alt="Sara Soueidan" class="image-personnalite">
+      </div>
+      <div class="container-item2">
         <h2>Sara Soueidan</h2>
         <p>Sara Soueidan est développeuse front-end UI/ UX, auteure et conférencière indépendante, basée au Liban. Elle se concentre davantage sur le HTML5, SVG, CSS et JavaScript. En freelance, elle collabore en tant que développeuse front-end avec des entreprises du monde entier en partenariat avec des équipes de conception pour créer des interfaces utilisateur Web et des systèmes de conception évolués. Elle a notamment travaillé sur des projets pour COBI, Khan Academy, Provota, Smashing Magazine... Elle met l’accent sur une conception réactive, une amélioration progressive, l’accessibilité et la performance, en utilisant les dernières techniques HTML/CSS et de design. Elle forme également  des équipes de concepteurs et de développeurs au sein de sociétés telles que Netflix, TELUS...</p>
-      </div>
       <button class="button" type="button">En savoir plus</button>
-    </section>
+      </div>
+    </div>
 
-    <section>
-      <div class="ana-tudor">
+    <div class="container-personnalite">
+      <div class="container-item1">
+      <img src="images/ana-tudor.jpg" alt="Ana Tudor" class="image-personnalite">
+      </div>
+      <div class="container-item2">
         <h2>Ana Tudor</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum turpis, molestie id tortor eget, mattis dictum lectus. Sed libero quam, pulvinar ut est at, imperdiet viverra nisl. Quisque bibendum rhoncus ipsum. Integer et enim a neque blandit molestie et ut enim. Phasellus porttitor faucibus elit, in porttitor metus aliquet eu. Duis ornare nec purus non vulputate. Praesent enim mi, feugiat sed tincidunt eu, semper id ante. Aliquam efficitur bibendum nulla vitae viverra.</p>
-      </div>
       <button class="button" type="button">En savoir plus</button>
-    </section>
+      </div>
+    </div>
 
-    <section>
-      <div class="alla-kholmatova">
+    <div class="container-personnalite">
+      <div class="container-item1">
+      <img src="images/alla-kholmatova.jpg" alt="Alla Kholmatova" class="image-personnalite">
+      </div>
+      <div class="container-item2">
         <h2>Alla kholmatova</h2>
         <p>Alla Kholmatova est une designer, conférencière, rédactrice et spécialiste des “design systems”. Dernièrement, elle était à la tête du design et de l’UX chez Bulb, le plus grand fournisseur d’énergie verte au Royaume-Uni. En même temps, elle est consultante en UX design à son compte depuis 2017. Elle a travaillé dans différentes entreprises en tant que designer UX/UI telles que Saffron Interactive (2009-2010), Thomson Reuters (2011-2012 : agence de presse canado-britannique, société d'édition professionnelle, financière et juridique) , Cezanne HR (2010-2014), Future Learn (2014-2017 : plateforme éducative numérique).</p>
-      </div>
       <button class="button" type="button">En savoir plus</button>
-    </section>
+      </div>
+    </div>
 
-    <section>
-      <div class="chris-coyier">
+    <div class="container-personnalite">
+      <div class="container-item1">
+      <img src="images/chris-coyier.jpeg" alt="Chris Coyier" class="image-personnalite">
+      </div>
+      <div class="container-item2">
         <h2>Chris Coyier</h2>
         <p>Je suis un concepteur et développeur Web. J'ai construit CSS-Tricks , un site Web consacré à la création de sites Web, qui fonctionne depuis 10 ans. Je suis le co-fondateur de CodePen , un terrain de jeu pour le développement web front-end. C'est un environnement de développement social pour les concepteurs et les développeurs front-end. Avec Dave Rupert, je suis co-animateur d'un podcast appelé ShopTalk , une émission sur (vous l'avez deviné), la création de sites Web. J'ai parlé lors d'événements et donné des ateliers partout dans le monde. J'ai également écrit deux livres: Practical SVG et Digging Into WordPress .</p>
-      </div>
       <button class="button" type="button">En savoir plus</button>
-    </section>
+      </div>
+    </div>
 
-    <section>
-      <div class="sarah-drasner">
+    <div class="container-personnalite">
+      <div class="container-item1">
+      <img src="images/sarah-drasner.jpg" alt="Sarah Drasner" class="image-personnalite">
+      </div>
+      <div class="container-item2">
         <h2>Sarah Drasner</h2>
         <p>Sarah Drasner est une conférencière primée, vice-présidente de l'expérience des développeurs chez Netlify, membre de l'équipe principale de Vue et rédactrice en chef chez CSS-Tricks. Sarah est auparavant Principal Lead of Emerging Markets, Cloud Advocates chez Microsoft et Manager UX & Engineering chez Trulia / Zillow Group. Elle est l'auteur des animations SVG d'O'Reilly et a donné des ateliers Frontend Masters. Sarah est co-organisatrice de ConcatenateConf, une conférence gratuite pour les développeurs nigérians et kenyans. Sarah est également la cofondatrice des ateliers d'animation Web avec Val Head. Elle a travaillé pendant 15 ans en tant que développeur Web, et a parfois travaillé comme illustratrice scientifique et professeur dans les îles grecques.</p>
-      </div>
         <button class="button" type="button">En savoir plus</button>
-    </section>
+      </div>
+    </div>
 </main>
 
   <footer>
     <nav>
+      <div class="footer">
       <ul>
         <li><a href="index.html">Accueil</a></li>
         <li><a href="evolutions-css.html">Evolutions et propriétés CSS</a></li>
         <li><a href="liste-personnalites.html">Personnalités CSS</a></li>
         <li><a href="mentions-legales.html">Mentions légales</a></li>
       </ul>
+      </div>
     </nav>
   </footer>
 

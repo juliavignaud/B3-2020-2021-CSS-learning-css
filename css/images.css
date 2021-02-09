@@ -11,3 +11,42 @@
   max-width: 100%;
   height: auto;
 }
+
+.image-personnalite {
+  width: 440px;
+  height: 330;
+  margin-right: 20px;
+  border-radius: 12px;
+}
+
+.container-personnalite {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-item1 {
+  margin: auto;
+  order: -1;
+}
+
+.container-item2 {
+  text-align: justify;
+  background-color: white;
+  margin: 10px;
+}
+
+@media (max-width: 900px) {
+  .container-personnalite {
+    flex-direction: column;
+  }
+}
+
+.rectangle {
+  width: 165px;
+  height: 165px;
+  margin: 30px 468px 101px 100px;
+  border-radius: 10px;
+  background-color: #ffc366;
+}

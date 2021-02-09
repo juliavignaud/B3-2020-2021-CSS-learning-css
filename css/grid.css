@@ -57,6 +57,10 @@ text-align: left;
 		grid-column: span 4;
 		text-align: left;
 	}
+	.button {
+		grid-column: span 4;
+		margin: auto;
+	}
 }
 
 	/* basic grids */

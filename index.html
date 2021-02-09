@@ -13,9 +13,11 @@
     <div class="nav">
       <nav>
         <ul>
-          <li><a href="index.html">Accueil</a></li>
+          <li><a class="active" href="index.html">Accueil</a></li>
           <li><a href="evolutions-css.html">Evolutions et propriétés CSS</a></li>
           <li><a href="liste-personnalites.html">Personnalités CSS</a></li>
+          <li><a href="profil-personnalite.html">Val Head</a></li>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
         </ul>
       </nav>
     </div
@@ -56,10 +58,10 @@
       </header>
       <p>Object-fit définit comment doit être coupé ou redimensionné un élément par rapport aux dimensions qui lui sont imposées. Cette propriété s'applique aux images ou aux vidéos. Elle permet d'éviter les déformations qui se produisent lorsque le ratio entre la largeur et la hauteur imposées est différent du ration de l'image ou de la vidéo originale. Premièrement, avec contain, l’image est dimensionnée pour garder ses proportions, en s’ajustant au conteneur. Ensuite, avec cover, l’image est dimensionnée en gardant ses proportions, tout en couvrant la totalité du conteneur. Avec fill, l’image remplie le conteneur, sans tenir compte des proportions. L’image risque d’être étirée. Avec none, pas de redimensionnement, c’est comme si la propriété n’était pas là. Enfin, avec scale-down, on retrouve les propriétés de contain ou none, en choisissant celle qui donne à l’image la taille la plus petite.</p>
       </article>
+      <button class="button" type="button" onclick="window.location.href = 'evolutions-css.html'">En savoir plus</button>
   </section>
 
-  <section>
-    <div class="personnalites">
+  <section class="personnalites">
       <h2>Personnalités importantes du CSS</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tortor massa, mattis non dapibus sed, sodales nec lorem. Curabitur efficitur lacinia odio, quis pharetra enim tristique quis. Suspendisse sem dui, venenatis sit amet erat vitae, congue vehicula ligula. Donec lorem quam, porttitor sed eleifend ut, posuere ac mauris. Integer venenatis massa in ligula imperdiet, id elementum dolor interdum. Maecenas ut lorem elit. Integer congue ipsum non venenatis tristique. Duis fringilla felis at bibendum consequat. </p>
       <ul>
@@ -73,38 +75,39 @@
         <li><span>Chris Coyier</span>, graphiste, son site web : <a href="https://chriscoyier.net/">https://chriscoyier.net/</a></li>
         <li><span>Sarah Drasner</span>, développeur web, auteure, son site web : <a href="https://sarahdrasnerdesign.com/">https://sarahdrasnerdesign.com/</a></li>
       </ul>
-      <button class="button" type="button">En savoir plus</button>
-    </div>
+      <button class="button" type="button" onclick="window.location.href = 'liste-personnalites.html'">En savoir plus</button>
   </section>
 
-   <section>
-    <img src="images/val-head.jpg" alt="Val Head" class="responsive">
-    <div class="zoom-personnalites">
+  <div class="container-personnalite">
+    <div class="container-item1">
+    <img src="images/val-head.jpg" alt="Val Head" class="image-personnalite">
+    </div>
+    <div class="container-item2">
       <h2>Zoom sur Val Head, l'une des personnalités les plus importantes du CSS</h2>
-      <p>Val Head, conférencière, auteure et spécialiste du design chez Adobe, spécialisée dans l’animation UX et UI. Son truc à elle c’est l’animation Web. Elle s’intéresse également aux normes web tout en apprenant à utiliser les animations Adobe Flash et ActionScript.Head est la fondatrice de On the Fridge qui produit la conférence Web Design Day en Pennsylvanie, ainsi que plusieurs ateliers de conception Web dans le pays. Val Head était directrice de la conception chez Northmaple Studio et directrice de la conception interactive à Agency 1903. Head est une des leadeuses de l’organisation à but non lucratif “Girl Develop It”. Elle est également la rédactrice en chef de The UI Animation Newsletter, où on retrouve les dernières normes en matière d’animation web, de motion design et de ressources UX. Il s’agit d’articles et de vidéos, de collections de tutoriels, ainsi que de conseils sur la manière de tirer le meilleur parti de l’animation sur le Web. Elle est aussi co-animatrice du podcast Motion and Meaning destiné aux designers.Actuellement, elle travaille en tant que Designer chez Adobe, et est en même temps à son compte depuis 2014.</p>
-    <button class="button" type="button">En savoir plus</button>
+      <p> Val Head, conférencière, auteure et spécialiste du design chez Adobe, spécialisée dans l’animation UX et UI. Son truc à elle c’est l’animation Web. Elle s’intéresse également aux normes web tout en apprenant à utiliser les animations Adobe Flash et ActionScript.Head est la fondatrice de On the Fridge qui produit la conférence Web Design Day en Pennsylvanie, ainsi que plusieurs ateliers de conception Web dans le pays.</p>
+    <button class="button" type="button" onclick="window.location.href = 'profil-personnalite.html'">En savoir plus</button>
     </div>
-  </section>
+  </div>
 
-  <section>
-   <div class="explications-technique">
+  <section class="mentions-legales">
      <h2>Explications techniques</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et rutrum nulla, nec mollis magna. Aliquam nibh mi, finibus consectetur diam nec, ultrices tempus odio. Cras tristique accumsan nunc, in semper odio posuere ut. Donec nec sem a lacus aliquam eleifend. Praesent commodo a felis at condimentum. Donec ut nisl tempus, cursus diam in, vulputate metus. Curabitur venenatis odio id ligula commodo dictum. Aenean ullamcorper felis et vehicula porttitor. Suspendisse cursus pretium sapien, finibus ullamcorper urna scelerisque a. Vestibulum varius viverra molestie. Sed vitae nisl sit amet ligula laoreet iaculis tristique et eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-   <button class="button" type="button">En savoir plus</button>
-   </div>
+     <p class="explications">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et rutrum nulla, nec mollis magna. Aliquam nibh mi, finibus consectetur diam nec, ultrices tempus odio. Cras tristique accumsan nunc, in semper odio posuere ut. Donec nec sem a lacus aliquam eleifend. Praesent commodo a felis at condimentum. Donec ut nisl tempus, cursus diam in, vulputate metus. Curabitur venenatis odio id ligula commodo dictum. Aenean ullamcorper felis et vehicula porttitor. Suspendisse cursus pretium sapien, finibus ullamcorper urna scelerisque a. Vestibulum varius viverra molestie. Sed vitae nisl sit amet ligula laoreet iaculis tristique et eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse cursus pretium sapien, finibus ullamcorper urna scelerisque a. Vestibulum varius viverra molestie. Sed vitae nisl sit amet ligula laoreet iaculis tristique et eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   <button class="button" type="button" onclick="window.location.href = 'mentions-legales.html'">En savoir plus</button>
  </section>
 </main>
 
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="evolutions-css.html">Evolutions et propriétés CSS</a></li>
-        <li><a href="liste-personnalites.html">Personnalités CSS</a></li>
-        <li><a href="mentions-legales.html">Mentions légales</a></li>
-      </ul>
-    </nav>
-  </footer>
+<footer>
+  <nav>
+    <div class="footer">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="evolutions-css.html">Evolutions et propriétés CSS</a></li>
+      <li><a href="liste-personnalites.html">Personnalités CSS</a></li>
+      <li><a href="mentions-legales.html">Mentions légales</a></li>
+    </ul>
+    </div>
+  </nav>
+</footer>
 
 </body>
 </html>

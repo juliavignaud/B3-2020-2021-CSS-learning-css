@@ -19,11 +19,12 @@ html {
 /**
  * Remove the margin in all browsers.
  */
+ * {
+   box-sizing: border-box;
+ }
 
 body {
-  margin: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0;
 }
 
 /**
@@ -31,6 +32,7 @@ body {
  */
 
 main {
+  margin: 80px;
   display: block;
 }
 
@@ -347,4 +349,60 @@ template {
 
 [hidden] {
   display: none;
+}
+
+.nav {
+  margin : 0px;
+  overflow: hidden;
+  background-color: #F4F4F4;
+}
+
+.nav li {
+  margin-left: 50px;
+  list-style: none;
+}
+
+.nav a {
+  float: left;
+  color: #474747;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #06DF90;
+  color: white;
+}
+
+.explications {
+  columns: 4 225px;
+}
+
+footer {
+  height: 100px;
+  background-color : #F4F4F4;
+}
+.footer {
+  margin : 50px;
+  text-align: center;
+}
+
+.footer li {
+  display: inline;
+  list-style: none;
+}
+
+.footer a {
+  margin-top: 50px;
+  color: #784CF5;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
