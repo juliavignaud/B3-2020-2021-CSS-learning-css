@@ -13,8 +13,7 @@
 }
 
 .image-personnalite {
-  width: 440px;
-  height: 330;
+  width: 100%;
   margin-right: 20px;
   border-radius: 12px;
 }
@@ -29,12 +28,14 @@
 .container-item1 {
   margin: auto;
   order: -1;
+  flex-basis: 600px;
 }
 
 .container-item2 {
   text-align: justify;
   background-color: white;
   margin: 10px;
+  flex-basis: 600px;
 }
 
 @media (max-width: 900px) {
