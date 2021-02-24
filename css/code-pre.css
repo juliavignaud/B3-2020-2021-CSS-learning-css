@@ -7,9 +7,12 @@ code {
   white-space: nowrap;
   background: var(--code-background);
   border: 1px solid var(--border-color-softer);
-  border-radius: 4px; }
+  border-radius: 4px;
+}
+
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
   white-space: pre;
-  overflow: auto; }
+  overflow: auto;
+}

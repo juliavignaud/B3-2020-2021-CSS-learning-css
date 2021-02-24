@@ -35,5 +35,10 @@
 @import "code-pre.css";
 @import "tables.css";
 @import "layout-spacing.css";
-@import "media-queries.css";
-@import "various.css";
+@import "mediaqueries.css";
+@import "menu.css";
+@import "footer.css";
+@import "personnalites.css";
+@import "profil-personnalite.css";
+@import "mentions-legales.css";
+@import "evolutions.css";

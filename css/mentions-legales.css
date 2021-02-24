@@ -1,0 +1,65 @@
+.mentions-legales {
+  margin-top: 50px;
+  padding: 20px;
+  margin-bottom: 50px;
+  border: 1px solid #784CF5;
+  border-radius: 10px;
+}
+
+.explications {
+  margin-top: 20px;
+  columns: 4 225px;
+}
+
+.explications > h3 {
+  margin: 0;
+}
+
+.presentation-projet {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.list-mentions {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.column1, .column2 {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.column1, .column2 {
+  flex: 50%;
+}
+
+@media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .column1, .column2 {
+    flex: 100%;
+  }
+
+  .column1, .column2 {
+    float: left;
+    width: 100%;
+  }
+}

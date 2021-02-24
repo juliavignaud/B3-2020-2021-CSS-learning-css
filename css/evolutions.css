@@ -1,0 +1,149 @@
+.grid-container {
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #784CF5;
+  border-radius: 10px;
+}
+
+#modal1 {
+  display: none;
+  width: 900px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  background-color: #fefefe;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+#modal1:target {
+  display: block;
+}
+
+#modal2 {
+  display: none;
+  width: 900px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  background-color: #fefefe;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+#modal2:target {
+  display: block;
+}
+
+#modal3 {
+  display: none;
+  width: 900px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  background-color: #fefefe;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+#modal3:target {
+  display: block;
+}
+
+#modal4 {
+  display: none;
+  width: 900px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  background-color: #fefefe;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+#modal4:target {
+  display: block;
+}
+
+.modal-header {
+  padding: 2px 16px;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 2px 16px;
+}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+}
+
+.col {
+  padding-bottom: 20px;
+  color: #424346;
+  background: #FFF;
+  border: 1px solid #784CF5;
+  border-radius: 10px;
+}
+
+.col h2,
+.col p {
+  margin: 20px;
+  padding: 0 20px;
+}
+
+.col h2 {
+  margin: .75em 0 .5em;
+}
+
+.col p {
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.thumbnail {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  transition: all .275s;
+}
+
+.thumbnail:hover img,
+.thumbnail:focus img {
+  filter: blur(2px) saturate(0);
+}
+
+.flex .col img {
+  height: auto;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  margin: auto;
+}
+
+.flex .col {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 300px;
+  margin: 1em 0.5em;
+}
+
+@media (max-width: 900px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+}
