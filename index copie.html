@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home Page Learning CSS</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="flex-layout">
+<header>
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a class="active" href="index.html">Accueil</a></li>
+          <li><a href="evolutions-css.html">Evolutions et propriétés CSS</a></li>
+          <li><a href="liste-personnalites.html">Personnalités CSS</a></li>
+          <li><a href="profil-personnalite.html">Val Head</a></li>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+        </ul>
+      </nav>
+    </div
+</header>
+
+<main>
+    <h1>Learning CSS</h1>
+
+    <section class="grid-container">
+      <header>
+      <h2>Évolutions et propriétes marquantes du CSS </h2>
+      </header>
+
+      <article>
+      <header>
+      <h3>Media queries</h3>
+      </header>
+      <p>Media queries est un module CSS3 permettant d'adapter le contenu d'une page web aux caractéristiques de l'appareil de l'utilisateur. Les requêtes média (media queries) permettent de modifier l'apparence d'un site ou d'une application en fonction du type d'appareil (impression ou écran par exemple) et de ses caractéristiques (la résolution d'écran ou la largeur de la zone d'affichage (viewport) par exemple). Une requête média se compose d'un type de média optionnel et d'une ou plusieurs expressions de caractéristiques de média. Plusieurs requêtes peuvent être combinées entre elles grâce à des opérateurs logiques. Les requêtes média ne sont pas sensibles à la casse. Une requête média vaut true si le type de média correspond à l'appareil utilisé pour l'affichage du document et si toutes les expressions relatives aux caractéristiques sont vraies. Vous pourrez en apprendre davantage dans notre site.</p>
+      </article>
+
+      <article>
+      <header>
+      <h3>Flexbox</h3>
+      </header>
+      <p>Dans les feuilles de style en cascade , la disposition de la grille CSS crée des dispositions de conception Web réactives complexes plus facilement et de manière cohérente dans les navigateurs. Le Flexbox Layoutmodule vise à fournir un moyen plus efficace de disposer, d'aligner et de répartir l'espace entre les éléments d'un conteneur, même lorsque leur taille est inconnue et / ou dynamique (donc le mot «flex»).L'idée principale derrière la disposition flexible est de donner au conteneur la possibilité de modifier la largeur / hauteur (et l'ordre) de ses éléments pour remplir au mieux l'espace disponible (principalement pour s'adapter à tous les types de dispositifs d'affichage et de tailles d'écran). Un conteneur flexible étend les éléments pour remplir l'espace libre disponible ou les réduit pour éviter tout débordement. Plus important encore, la mise en page de la flexbox est indépendante de la direction par opposition aux mises en page régulières.</p>
+      </article>
+
+      <article>
+      <header>
+      <h3>CSS grid layout</h3>
+      </header>
+      <p>CSS Grid Layout (alias «Grid») est un système de mise en page bidimensionnel basé sur une grille qui vise à ne rien faire de moins que de changer complètement la façon dont nous concevons les interfaces utilisateur basées sur la grille. CSS a toujours été utilisé pour mettre en page nos pages Web, mais il n'a jamais fait du très bon travail. Tout d'abord, nous avons utilisé des tableaux, puis des flottants, le positionnement et le bloc en ligne, mais toutes ces méthodes étaient essentiellement des hacks et laissaient de côté de nombreuses fonctionnalités importantes (centrage vertical, par exemple). Flexbox a aidé, mais il est destiné à des mises en page unidimensionnelles plus simples, pas à des mises en page bidimensionnelles complexes (Flexbox et Grid fonctionnent en fait très bien ensemble). Grid est le tout premier module CSS créé spécifiquement pour résoudre les problèmes de mise en page que nous piratons tous depuis que nous créons des sites Web.</p>
+      </article>
+
+      <article>
+      <header>
+      <h3>Object fit</h3>
+      </header>
+      <p>Object-fit définit comment doit être coupé ou redimensionné un élément par rapport aux dimensions qui lui sont imposées. Cette propriété s'applique aux images ou aux vidéos. Elle permet d'éviter les déformations qui se produisent lorsque le ratio entre la largeur et la hauteur imposées est différent du ration de l'image ou de la vidéo originale. Premièrement, avec contain, l’image est dimensionnée pour garder ses proportions, en s’ajustant au conteneur. Ensuite, avec cover, l’image est dimensionnée en gardant ses proportions, tout en couvrant la totalité du conteneur. Avec fill, l’image remplie le conteneur, sans tenir compte des proportions. L’image risque d’être étirée. Avec none, pas de redimensionnement, c’est comme si la propriété n’était pas là. Enfin, avec scale-down, on retrouve les propriétés de contain ou none, en choisissant celle qui donne à l’image la taille la plus petite.</p>
+      </article>
+      <button class="button" type="button" onclick="window.location.href = 'evolutions-css.html'">En savoir plus</button>
+  </section>
+
+  <section class="personnalites">
+      <h2>Personnalités importantes du CSS</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tortor massa, mattis non dapibus sed, sodales nec lorem. Curabitur efficitur lacinia odio, quis pharetra enim tristique quis. Suspendisse sem dui, venenatis sit amet erat vitae, congue vehicula ligula. Donec lorem quam, porttitor sed eleifend ut, posuere ac mauris. Integer venenatis massa in ligula imperdiet, id elementum dolor interdum. Maecenas ut lorem elit. Integer congue ipsum non venenatis tristique. Duis fringilla felis at bibendum consequat. </p>
+      <ul>
+        <li><span>Jen Simmons</span>, graphiste, développeur web, éducatrice et conférencière, son site web : <a href="https://jensimmons.com/">https://jensimmons.com/</a></li>
+        <li><span>Rachel Andrew</span>, développeur Web britannique, auteure et conférencière, son site web : <a href="https://rachelandrew.co.uk/">https://rachelandrew.co.uk/</a></li>
+        <li><span>Lea Verou</span>, développeur Web front end, conférencière et auteure, son site web : <a href="https://lea.verou.me/">https://lea.verou.me/</a></li>
+        <li><span>Val Head</span>, conférencière, auteure, spécialisée dans l'animation UX/UI, son site web : <a href="https://valhead.com/">https://valhead.com/</a></li>
+        <li><span>Sara Soueidan</span>, développeur front-end UI/UX, auteure et conférencière, son site web : <a href="https://www.sarasoueidan.com/">https://www.sarasoueidan.com/</a></li>
+        <li><span>Ana Tudor</span>, développeur web, son site web : <a href="https://codepen.io/thebabydino">https://codepen.io/thebabydino/</a></li>
+        <li><span>Alla Kholmatova</span>, designer, rédactrice et designer, son site web : <a href="https://www.craftui.com/">https://www.craftui.com/</a></li>
+        <li><span>Chris Coyier</span>, graphiste, son site web : <a href="https://chriscoyier.net/">https://chriscoyier.net/</a></li>
+        <li><span>Sarah Drasner</span>, développeur web, auteure, son site web : <a href="https://sarahdrasnerdesign.com/">https://sarahdrasnerdesign.com/</a></li>
+      </ul>
+      <button class="button" type="button" onclick="window.location.href = 'liste-personnalites.html'">En savoir plus</button>
+  </section>
+
+  <div class="container-personnalite">
+    <div class="container-item1">
+    <img src="images/val-head.jpg" alt="Val Head" class="image-personnalite">
+    </div>
+    <div class="container-item2">
+      <h2>Zoom sur Val Head, l'une des personnalités les plus importantes du CSS</h2>
+      <p> Val Head, conférencière, auteure et spécialiste du design chez Adobe, spécialisée dans l’animation UX et UI. Son truc à elle c’est l’animation Web. Elle s’intéresse également aux normes web tout en apprenant à utiliser les animations Adobe Flash et ActionScript.Head est la fondatrice de On the Fridge qui produit la conférence Web Design Day en Pennsylvanie, ainsi que plusieurs ateliers de conception Web dans le pays.</p>
+    <button class="button" type="button" onclick="window.location.href = 'profil-personnalite.html'">En savoir plus</button>
+    </div>
+  </div>
+
+  <section class="mentions-legales">
+     <h2>Explications techniques</h2>
+     <p class="explications">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et rutrum nulla, nec mollis magna. Aliquam nibh mi, finibus consectetur diam nec, ultrices tempus odio. Cras tristique accumsan nunc, in semper odio posuere ut. Donec nec sem a lacus aliquam eleifend. Praesent commodo a felis at condimentum. Donec ut nisl tempus, cursus diam in, vulputate metus. Curabitur venenatis odio id ligula commodo dictum. Aenean ullamcorper felis et vehicula porttitor. Suspendisse cursus pretium sapien, finibus ullamcorper urna scelerisque a. Vestibulum varius viverra molestie. Sed vitae nisl sit amet ligula laoreet iaculis tristique et eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse cursus pretium sapien, finibus ullamcorper urna scelerisque a. Vestibulum varius viverra molestie. Sed vitae nisl sit amet ligula laoreet iaculis tristique et eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   <button class="button" type="button" onclick="window.location.href = 'mentions-legales.html'">En savoir plus</button>
+ </section>
+</main>
+
+<footer>
+  <nav>
+    <div class="footer">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="evolutions-css.html">Evolutions et propriétés CSS</a></li>
+      <li><a href="liste-personnalites.html">Personnalités CSS</a></li>
+      <li><a href="mentions-legales.html">Mentions légales</a></li>
+    </ul>
+    </div>
+  </nav>
+</footer>
+
+</body>
+</html>

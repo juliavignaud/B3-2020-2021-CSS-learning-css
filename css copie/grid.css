@@ -1,0 +1,83 @@
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* CSS Grid depends much more on CSS than HTML, so there is less boilerplate
+	 than with skeleton. Only basic 1-4 column grids are included.
+	 Any additional needs should be made using custom CSS directives */
+
+
+.grid-container {
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: justify;
+	display: grid;
+	grid-gap: 60px;
+	gap: 40px;
+
+	/* by default use min 200px wide columns auto-fit into width */
+	grid-template-columns: minmax(200px, 1fr);
+}
+
+header {
+text-align: left;
+}
+
+
+/* grids to 3 columns above mobile sizes */
+@media (min-width: 600px) {
+	.grid-container {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 10px 0;
+	}
+
+	.grid-container > header {
+		grid-column: span 2;
+		text-align: left;
+	}
+
+@media (min-width: 900px) {
+	.grid-container {
+		grid-template-columns: repeat(3, 1fr);
+		padding: 10px 0;
+	}
+
+	.grid-container > header {
+		grid-column: span 3;
+		text-align: left;
+	}
+}
+
+@media (min-width: 1200px) {
+	.grid-container {
+		grid-template-columns: repeat(4, 1fr);
+		padding: 10px 0;
+	}
+
+	.grid-container > header {
+		grid-column: span 4;
+		text-align: left;
+	}
+	.button {
+		grid-column: span 4;
+		margin: auto;
+	}
+}
+
+	/* basic grids */
+	.grid-container.fifths {
+		grid-template-columns: repeat(5, 1fr);
+	}
+	.grid-container.quarters {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.grid-container.thirds {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.grid-container.halves {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.grid-container.full {
+		grid-template-columns: 1fr;
+	}
+
+}
