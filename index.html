@@ -38,33 +38,35 @@
             </header>
             <article>
                <header>
-                  <h3>Media queries</h3>
+                  <h3>Médias queries</h3>
                </header>
-               <p>Media queries est un module CSS3 permettant d'adapter le contenu d'une page web aux caractéristiques de l'appareil de l'utilisateur. Les requêtes média (media queries) permettent de modifier l'apparence d'un site ou d'une application en fonction du type d'appareil (impression ou écran par exemple) et de ses caractéristiques (la résolution d'écran ou la largeur de la zone d'affichage (viewport) par exemple).</p>
+               <p>Les médias queries est une recommandation officielle adaptée au W3C. Ce module de médias queries CSS3 propose un rendu de page web adaptable en fonction de plusieurs facteurs tels que la résolution ou la taille de l’écran.. </p>
             </article>
             <article>
                <header>
                   <h3>Flexbox</h3>
                </header>
-               <p>Dans les feuilles de style en cascade , la disposition de la grille CSS crée des dispositions de conception Web réactives complexes plus facilement et de manière cohérente dans les navigateurs. Le Flexbox Layoutmodule vise à fournir un moyen plus efficace de disposer, d'aligner et de répartir l'espace entre les éléments d'un conteneur, même lorsque leur taille est inconnue et / ou dynamique (donc le mot «flex»).</p>
+               <p>La sortie de CSS Flexible Layout, publié par le W3C est une nouvelle manière de faire une page web avec des alignements plus facile et une répartition des espaces par rapport à la résolution et à la taille de l’écran..</p>
             </article>
             <article>
                <header>
                   <h3>CSS grid layout</h3>
                </header>
-               <p>CSS Grid Layout (alias «Grid») est un système de mise en page bidimensionnel basé sur une grille qui vise à ne rien faire de moins que de changer complètement la façon dont nous concevons les interfaces utilisateur basées sur la grille. CSS a toujours été utilisé pour mettre en page nos pages Web, mais il n'a jamais fait du très bon travail. </p>
+               <p>CSS Grid Layout est considéré comme le système de mise en page le plus puissant disponible en CSS. Il s’agit d’un système bidimensionnel. Cela veut dire qu’il peut gérer à la fois des colonnes et des lignes, contrairement à flexbox..</p>
             </article>
             <article>
                <header>
                   <h3>Object fit</h3>
                </header>
-               <p>Object-fit définit comment doit être coupé ou redimensionné un élément par rapport aux dimensions qui lui sont imposées. Cette propriété s'applique aux images ou aux vidéos. Elle permet d'éviter les déformations qui se produisent lorsque le ratio entre la largeur et la hauteur imposées est différent du ration de l'image ou de la vidéo originale.</p>
+               <p>La propriété CSS object-fit définit la façon dont le contenu d'un élément remplacé doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur. Selon la valeur utilisée pour object-fit, l'élément peut être rogné, mis à l'échelle ou étirer..</p>
             </article>
             <a class="button" onclick="window.location.href = 'evolutions-css.html'">En savoir plus</a>
          </section>
          <section class="personnalites">
             <h2>Personnalités importantes du CSS</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tortor massa, mattis non dapibus sed, sodales nec lorem. Curabitur efficitur lacinia odio, quis pharetra enim tristique quis. Suspendisse sem dui, venenatis sit amet erat vitae, congue vehicula ligula. Donec lorem quam, porttitor sed eleifend ut, posuere ac mauris. Integer venenatis massa in ligula imperdiet, id elementum dolor interdum. Maecenas ut lorem elit. Integer congue ipsum non venenatis tristique. Duis fringilla felis at bibendum consequat. </p>
+            <p>Ces dernières années, la CSS a connu de nombreuses nouveautés et innovations. Écosystème changeant et dynamique, il est important d’en comprendre les principes fondamentaux, et de savoir quand et comment adopter les nouveautés apportées au CSS.
+              Pour nous aider des acteurs du CSS, des professionnels du web, partagent et expliquent la CSS. En voici quelques uns :
+            </p>
             <ul>
                <li><span>Jen Simmons</span>, graphiste, développeur web, éducatrice et conférencière, son site web : <a href="https://jensimmons.com/">https://jensimmons.com/</a></li>
                <li><span>Rachel Andrew</span>, développeur Web britannique, auteure et conférencière, son site web : <a href="https://rachelandrew.co.uk/">https://rachelandrew.co.uk/</a></li>
@@ -90,7 +92,10 @@
          </div>
          <section class="mentions-legales">
             <h2>Explications techniques</h2>
-            <p class="explications">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et rutrum nulla, nec mollis magna. Aliquam nibh mi, finibus consectetur diam nec, ultrices tempus odio. Cras tristique accumsan nunc, in semper odio posuere ut. Donec nec sem a lacus aliquam eleifend. Praesent commodo a felis at condimentum. Donec ut nisl tempus, cursus diam in, vulputate metus. Curabitur venenatis odio id ligula commodo dictum. Aenean ullamcorper felis et vehicula porttitor. Suspendisse cursus pretium sapien, finibus ullamcorper urna scelerisque a. Vestibulum varius viverra molestie. Sed vitae nisl sit amet ligula laoreet iaculis tristique et eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse cursus pretium sapien, finibus ullamcorper urna scelerisque a. Vestibulum varius viverra molestie. Sed vitae nisl sit amet ligula laoreet iaculis tristique et eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="explications">
+            <p>La page d'accueil, présente un avant-goût des différentes pages en 4 sections, avec pour chaques section un lien (déguisé en bouton) qui redirige vers la page en question. Sur cette page on retrouve notamment l'utilisation de <span>Grid, Flexbox</span> ainsi que <span>column</span>.</p>
+            <p>Le menu de mon site est un menu latéral responsif créé en combinant <span>l'élément CSS ::target, les transitions</span> et d'autres propriétés CSS (position absolute, width, height...). La page évolution et propriétés marquantes présente 4 propriétés fondamentales du CSS : les médias queries, Flexbox, Grid et Object-fit. Sur cette page, on retrouve l'utilisation et l'expérimentation de diverses propriétés css. Pour la créations des 4 blocs, j'ai créé 4 sections différentes et j'ai utilisé <span>Flexbox</span> avec notamment <span>flex-wrap : wrap;</span> déclaré dans un média querie pour que les blocs soient responsifs. Concernant la modal qui apparaît au clic sur le lien, il n'y a aucun javascript.. J'ai utilisé tout comme pour le menu, <span>les id et l'élément CSS ::target</span>. Globalement, on retrouve l'utilisation de <span>transitions, filtres et animations</span>, que ce soit pour l'animation de la modal ou l'effet de hoover sur les images.</p>
+            </div>
             <a class="button" onclick="window.location.href = 'mentions-legales.html'">En savoir plus</a>
          </section>
       </main>
